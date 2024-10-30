@@ -11,7 +11,7 @@ if (presionarBotonIniciarSesion){
             window.location.href = "/view/public/pages/home.html"
 
         } else {
-            console.log('Error de credenciales, te quedan: ' +intentos+" intentos")
+            alert("Error de credenciales, te quedan: " +intentos+" intentos")
             if(intentos===0){
                 window.location.href = "/view/public/pages/sistemacerrado.html"
             }
