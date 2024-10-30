@@ -13,7 +13,7 @@ function Ganancia (unidades){
 
 for(let i=1; i<=7; i++){
     let unidadesProducidas = parseInt(prompt("Ingrese la cantidad de unidades producidas en el dia "+i+":"))
-    alert("La ganancia del "+i+ " es: "+Ganancia(unidadesProducidas)+"%")
+    alert("La ganancia del dia "+i+ " es: "+Ganancia(unidadesProducidas)+"%")
     gananciaTotal += Ganancia(unidadesProducidas)
     produccionTotal += unidadesProducidas
 }
