@@ -1,8 +1,9 @@
 import {usuarios} from "/model/ModelUsers.js"
 export function buscarUsuario(){
     let respuesta = usuarios.some(usuario => {
-        username = document.querySelector("#usuario").value
-        password = document.querySelector("#contrasena").value
+
+        let username = document.querySelector("#usuario").value
+        let password = document.querySelector("#contrasena").value
 
         if(username === usuario.usuario && password === usuario.contrasena){
             return true
